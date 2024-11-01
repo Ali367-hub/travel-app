@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Card</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="card-page">
+    <div class="card-container">
+        <!-- Кнопка назад -->
+        <a href="#" class="back-btn">
+            <img style="width: 32px; height: 32px; position: relative; top: 20px; " src="./images/arrow_back_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </a>
+        
+        <!-- Изображение сверху -->
+        <img src="path_to_default_image.jpg" alt="Main Image" class="main-image" id="mainImage">
+
+        <!-- Карточка -->
+        <div class="card-content">
+            <!-- Галерея мини-изображений -->
+            <div class="image-gallery">
+                <img src="./images/tipy-nomerov.jpg" alt="Thumbnail 1" class="thumbnail" onclick="changeImage(this.src)">
+                <img src="./images/wc-upscale-hotel_872147-22585.jpg.avif" alt="Thumbnail 2" class="thumbnail" onclick="changeImage(this.src)">
+                <img src="./images/hotel_9b146f27e7.jpg" alt="Thumbnail 3" class="thumbnail" onclick="changeImage(this.src)">
+                <img src="./images/751a526577fcc2ba980ea65f6162e1bb.jpg.webp" alt="Thumbnail 4" class="thumbnail" onclick="changeImage(this.src)">
+            </div>
+
+            <!-- Название и цена -->
+            <div class="title-price">
+                <h2>Dubai palace</h2>
+                <span class="price">$150 <br>/person/night</span>
+            </div>
+
+            <!-- Локация и рейтинг -->
+            <div class="location-rating">
+                <span class="location">Abu Dhabi</span>
+                <span class="rating">★ 5.0</span>
+            </div>
+
+            <!-- Описание -->
+            <div class="description">
+                <div class="tabs">
+                    <button class="active">Description</button>
+                    <button>Review</button>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Arcu, arcu dictumst habitant vel ut et pellentesque. Ut in egestas blandit netus in
+                    scelerisque. Eget lectus ultrices pellentesque id.
+                    Read More... <a href="#">Read more</a></p>
+            </div>
+
+            <!-- Кнопка бронирования -->
+            <a href="#">
+                <button class="book-btn">Book Now!</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src= "js/a.js"></script>
+
+
+</body>
+</html>

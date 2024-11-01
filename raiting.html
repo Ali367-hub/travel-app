@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action=# name="star-rating-form">
+          <h1 id="title" class="call-to-action-text">Select a rating:</h1>
+          <div class="star-wrap">
+            <input class="star" checked type="radio" value="-1" id="skip-star" name="star-radio" autocomplete="off" />
+            <label class="star-label hidden"></label>
+            <input class="star" type="radio" id="st-1" value="1" name="star-radio" autocomplete="off" />
+            <label class="star-label" for="st-1">
+              <div class="star-shape"></div>
+            </label>
+            <input class="star" type="radio" id="st-2" value="2" name="star-radio" autocomplete="off" />
+            <label class="star-label" for="st-2">
+              <div class="star-shape"></div>
+            </label>
+            <input class="star" type="radio" id="st-3" value="3" name="star-radio" autocomplete="off" />
+            <label class="star-label" for="st-3">
+              <div class="star-shape"></div>
+            </label>
+            <input class="star" type="radio" id="st-4" value="4" name="star-radio" autocomplete="off" />
+            <label class="star-label" for="st-4">
+              <div class="star-shape"></div>
+            </label>
+            <input class="star" type="radio" id="st-5" value="5" name="star-radio" autocomplete="off" />
+            <label class="star-label" for="st-5">
+              <div class="star-shape"></div>
+            </label>
+            <label class="skip-button" for="skip-star">
+              &times;
+            </label>
+          </div>
+        </form>
+        <p id="result">Not chosen</p>
+       
+      </div>
+    <script src="./js/a.js"></script>
+</body>
+</html>
